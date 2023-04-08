@@ -36,4 +36,4 @@ jobs:
           platforms: linux/arm64,linux/amd64
           push: true
           tags: |
-            ghcr.io/daniscript18/yolks:${{ matrix.build }}
+            ghcr.io/skidfighter/yolks:${{ matrix.build }}
