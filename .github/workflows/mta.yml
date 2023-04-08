@@ -1,6 +1,4 @@
 name: build mta
-env:
-  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 on:
   workflow_dispatch:
   schedule:
